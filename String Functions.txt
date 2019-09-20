@@ -1,0 +1,10 @@
+
+if __name__ == '__main__':
+    print('hello'.upper())
+    print('hello'.lower())
+    print('hello world'.capitalize())
+    print('hello world'.isalpha()) # False because of Space
+    print('def'.isidentifier()) # True since def is keyword
+    print('Hello world'.istitle()) #False since world is not title case
+    print('hello   '.rstrip(' ')) # Remove trailing Space
+    print("42".zfill(5))
